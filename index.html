@@ -85,7 +85,7 @@
               />
               <a href="#" target="_blank" rel="noopener noreferrer">Forgot password</a>
             </div>
-            <button type="button"class="cust btn btn-primary"role="button" aria-pressed="false" tabindex="0">
+            <button class="cust btn btn-primary"role="button" aria-pressed="false" tabindex="0">
               Login
             </button>
           </form>
@@ -107,19 +107,19 @@
     
     var btn = document.querySelector('.cust');
     var form = document.querySelector('.form-control');
-    var form2 = document.querySelector('.form-control2')
-    var url = 'https://tee-emm97.github.io/gamma-assessment/thank-you.html'
+    var form2 = document.querySelector('.form-control2');
+    const url = '/thank-you.html'
 
     btn.addEventListener("click", function() {
-        btn.innerHTML = 'Logging in <span class="dot-typing"></span>'
+        btn.innerHTML = 'Logging in <span class="dot-typing indent"></span>'
         btn.disabled = true;
         form.disabled = true;
         form2.disabled = true;
         
       setTimeout( 
             function  (){  
-              window.location.reload(url);
-            }, 6000);
+              window.location.href = url;
+            }, 20000);
     }, false);
     
 })();

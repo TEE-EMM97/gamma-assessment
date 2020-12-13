@@ -148,7 +148,7 @@ a {
   }
 
   .btn:disabled {
-    background-color: $remBtn;
+    background-color: $bgcolor1;
     border: 3px solid $accent;
     color: $accent;
   }
@@ -226,6 +226,7 @@ a {
   position: absolute;
   left: -9732px;
   margin-top: 11px;
+  margin-left: 22px;
   width: 6px;
   height: 6px;
   border-radius: 5px;
