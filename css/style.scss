@@ -140,7 +140,7 @@ a {
     width: 22rem;
     height: 2.75rem;
     background-color: #7653f3;
-    border: 0px solid black;
+    border: 0 solid black;
     border-radius: 1.75rem;
     box-shadow: 0px 26px 120px 0px $accent;
     font-family: 'MuliExtraBold';
@@ -166,7 +166,7 @@ a {
     border: 0.125rem solid $remBtn;
     border-radius: 0.625rem;
     padding: 0.9375rem;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
     margin-top: 14rem;
     margin-left: auto;
     margin-right: auto;
@@ -180,22 +180,22 @@ a {
 
   .slider {
     position: absolute;
-    right: 20px;
+    right: 1.25rem;
     bottom: 31%;
     cursor: pointer;
     background:$togDefault;
     transition: .5s;
     border: 3px solid $togDefault;
     box-shadow: 1px 1px 1px rgba(0,0,0, 0.1);
-    height: 24px;
-    width: 49px;
+    height: 1.5rem;
+    width: 3.0625rem;
   }
 
   .slider::before{
     position: absolute;
     content: "";
-    bottom: 14px;
-    top: 0px;
+    bottom: 0.875rem;
+    top: 0;
     background-color: $bgcolor2;
     transition: .5s;
   }
@@ -206,12 +206,12 @@ a {
   }
 
   .slider.round{
-    border-radius: 35px;
+    border-radius: 2.1875rem;
   }
 
   .slider.round::before{
-    width: 18px;
-    height: 18px;
+    width: 1.125rem;
+    height: 1.125rem;
     border-radius: 50%;
     transform: rotateZ(-45deg);
   }
@@ -224,12 +224,12 @@ a {
 
 .dot-typing {
   position: absolute;
-  left: -9732px;
-  margin-top: 11px;
-  margin-left: 22px;
-  width: 6px;
-  height: 6px;
-  border-radius: 5px;
+  left: -608.25rem;
+  margin-top: 0.6875rem;
+  margin-left: 1.375rem;
+  width: 0.375rem;
+  height: 0.375rem;
+  border-radius: 0.3125rem;
   background-color: #9880ff;
   color: #9880ff;
   box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;
@@ -283,12 +283,4 @@ a {
   100% {
     box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;
   }
-}
-
-.vector {
-}
-
-.vector img{
-  margin: 0 auto;
-  display: block;
 }
