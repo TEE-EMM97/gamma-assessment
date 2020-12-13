@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Primary Meta Tags -->
+    <title>Gamma Assessment</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/dist/style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+
+    <meta name="title" content="Gamma Assessment" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Technical assessment for  Gamma Telecom Ltd."
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:title" content="Gamma Assessment" />
+    <meta
+      property="og:description"
+      content="Technical assessment for  Gamma Telecom Ltd."
+    />
+    <meta property="og:image" content="https://ibb.co/X4XqP7s" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="" />
+    <meta property="twitter:title" content="Gamma Assessment" />
+    <meta
+      property="twitter:description"
+      content="Technical assessment for Gamma Telecom Ltd."
+    />
+    <meta property="twitter:image" content="https://ibb.co/X4XqP7s" />
+  </head>
+
+  <body>
+    <!-- <div class="container"> -->
+    <div class="row">
+      <div class="col-3">
+        <div class="loginArea">
+          <form>
+            <h4>login</h4>
+            <h5>Login with your Gamma cloud telephony account.</h5>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Username</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Enter email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input
+                type="password"
+                class="form-control form-control2 "
+                id="exampleInputPassword1"
+                placeholder="Password"
+              />
+              <a href="#" target="_blank" rel="noopener noreferrer">Forgot password</a>
+            </div>
+            <button type="button"class="cust btn btn-primary"role="button" aria-pressed="false" tabindex="0">
+              Login
+            </button>
+          </form>
+
+          <label class="switch">
+            <p>Remember my password</p>
+            <input type="checkbox" checked /><span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+      <div class="col-9">
+        <div class="vectorArea">
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      (function(){
+    
+    var btn = document.querySelector('.cust');
+    var form = document.querySelector('.form-control');
+    var form2 = document.querySelector('.form-control2')
+
+    btn.addEventListener("click", function() {
+        btn.innerHTML = 'Logging in <span class="dot-typing"></span>'
+        btn.disabled = true;
+        form.disabled = true;
+        form2.disabled = true;
+        
+      setTimeout( 
+            function  (){  
+              location.reload('/thank-you.html');
+            }, 6000);
+    }, false);
+    
+})();
+    </script>
+    <!-- </div> -->
+  </body>
+</html>
