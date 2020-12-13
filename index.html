@@ -108,6 +108,7 @@
     var btn = document.querySelector('.cust');
     var form = document.querySelector('.form-control');
     var form2 = document.querySelector('.form-control2')
+    var url = 'https://tee-emm97.github.io/gamma-assessment/thank-you.html'
 
     btn.addEventListener("click", function() {
         btn.innerHTML = 'Logging in <span class="dot-typing"></span>'
@@ -117,7 +118,7 @@
         
       setTimeout( 
             function  (){  
-              location.reload('/thank-you.html');
+              window.location.reload(url);
             }, 6000);
     }, false);
     
